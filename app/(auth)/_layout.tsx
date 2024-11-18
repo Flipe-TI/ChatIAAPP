@@ -98,7 +98,7 @@ const ChatScreen = () => {
         setNewMessage('');
 
         
-        const response = await fetch('http://35.247.253.161:8000/ask', {
+        const response = await fetch('http://35.247.224.15:8000/ask', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
